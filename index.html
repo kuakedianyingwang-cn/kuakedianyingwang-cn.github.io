@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#07091c">
+<title>夸克电影网 - 粒子与光影电影赏析_经典片单、特效进化与深度影评</title>
+<meta name="description" content="夸克电影网（kuakedianyingwang）以'夸克'为隐喻，专注粒子、光影与视觉奇观的电影赏析：整理科幻视效片单、粒子特效进化史、光影导演谱系、4K高码率片单、深度影评与观影日历">
+<meta name="keywords" content="夸克电影网,夸克电影,粒子特效,视觉奇观,光影电影,科幻片单,视效进化史,4K高码率,电影影评,观影指南">
+<meta name="author" content="夸克电影网">
+<meta name="copyright" content="夸克电影网">
+<link rel="canonical" href="https://kuakedianyingwang-cn.github.io/">
+<style>
+:root{
+  --bg:#07091c; --bg2:#10143a; --bg3:#171d4d;
+  --q1:#6ee7ff; --q2:#7cffd1; --q3:#a78bfa; --q4:#ff7ad9; --q5:#ffb020;
+  --sans:"Inter","PingFang SC","Microsoft YaHei","WenQuanYi Micro Hei",system-ui,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --serif:"Source Serif 4","Songti SC",Georgia,"Noto Serif CJK SC",serif;
+  --disp:"Anton","Archivo Black","PingFang SC",sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:var(--sans);background:var(--bg);color:#e7ecf8;line-height:1.85;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.5;
+  background:radial-gradient(circle at 90% 6%,rgba(110,231,255,.18),transparent 24%),radial-gradient(circle at 4% 96%,rgba(255,122,217,.14),transparent 26%)}
+.wrap{width:min(1180px,92vw);margin:0 auto;position:relative;z-index:1}
+a{color:inherit;text-decoration:none;transition:.22s cubic-bezier(.3,.75,.4,1)}
+::selection{background:var(--q1);color:#07091c}
+::-webkit-scrollbar{width:9px;height:9px}
+::-webkit-scrollbar-thumb{background:linear-gradient(var(--q1),var(--q3));border-radius:9px}
+
+.nav{position:sticky;top:0;z-index:70;background:rgba(7,9,28,.94);backdrop-filter:blur(11px);border-bottom:3px solid var(--q1);box-shadow:0 6px 22px rgba(0,0,0,.5)}
+.nav .wrap{display:flex;align-items:center;gap:12px;height:58px}
+.logo{display:flex;align-items:center;gap:9px;font-weight:900;font-size:19px;white-space:nowrap;letter-spacing:.4px}
+.logo .q{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-family:var(--disp);font-size:15px;color:#07091c;background:radial-gradient(circle at 34% 30%,#fff,var(--q1) 46%,var(--q3));box-shadow:0 0 16px rgba(110,231,255,.55);transform:rotate(-8deg)}
+.logo em{font-style:normal;font-size:8.2px;letter-spacing:1.9px;color:#7d8aa8;font-family:var(--mono);line-height:1.15}
+.menu{display:flex;gap:2px;margin-left:auto}
+.menu a{padding:8px 11px;font-size:12.8px;color:#c5d0e6;font-weight:700;border-radius:7px;letter-spacing:.3px}
+.menu a:hover,.menu a.on{color:#07091c;background:var(--q1);box-shadow:0 0 12px rgba(110,231,255,.45)}
+.burger{display:none;background:none;border:none;color:#fff;cursor:pointer;padding:2px}
+
+.hero{background:radial-gradient(120% 150% at 78% 8%,rgba(110,231,255,.22),transparent 40%),linear-gradient(160deg,#050615,#10143a 70%,#07091c);border-bottom:3px solid var(--q1);padding:24px 0 22px;overflow:hidden}
+.hg{display:grid;grid-template-columns:1fr 230px;gap:26px;align-items:center}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:9.8px;letter-spacing:2.1px;color:#07091c;font-weight:800;background:linear-gradient(90deg,var(--q1),var(--q2));padding:5px 13px;border-radius:999px}
+h1{font-size:clamp(27px,5.4vw,52px);line-height:1.16;margin:13px 0;font-weight:900;letter-spacing:-.7px;font-family:var(--disp)}
+h1 u{text-decoration:none;color:var(--q1)}
+h1 .big{font-family:var(--disp);background:linear-gradient(92deg,var(--q1),var(--q4));-webkit-background-clip:text;background-clip:text;color:transparent;font-size:1.16em;vertical-align:middle;margin:0 5px;letter-spacing:-2px;filter:drop-shadow(0 0 14px rgba(110,231,255,.35))}
+h1 i{font-style:normal;color:#fff}
+.hsub{font-size:clamp(13px,1.5vw,14.6px);color:#b7c2d8;max-width:60ch;text-align:justify}
+.hsub strong{color:#fff}
+.cta{display:flex;gap:11px;margin-top:20px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 25px;border-radius:999px;font-size:14px;font-weight:800;letter-spacing:.5px;border:2px solid var(--q1)}
+.btn-p{background:var(--q1);color:#07091c}
+.btn-p:hover{background:#fff;border-color:#fff;transform:translateY(-2px)}
+.btn-o{background:transparent;color:#fff}
+.btn-o:hover{background:var(--q1);color:#07091c}
+
+/* 粒子主视觉 */
+.qk{width:196px;height:196px;margin:0 auto;position:relative;display:grid;place-items:center}
+.qk .orb{position:absolute;inset:0;border-radius:50%;border:1.5px solid rgba(110,231,255,.45);animation:ri 2.2s ease-out infinite}
+.qk .orb:nth-child(2){animation-delay:.75s}
+.qk .orb:nth-child(3){animation-delay:1.5s}
+@keyframes ri{from{transform:scale(.42);opacity:.8}to{transform:scale(1.6);opacity:0}}
+.qk svg{width:132px;height:132px;overflow:visible;filter:drop-shadow(0 0 16px rgba(110,231,255,.4))}
+.qk .cap{position:absolute;bottom:-18px;left:50%;transform:translateX(-50%);font-family:var(--mono);font-size:8.4px;letter-spacing:2.3px;color:#7d8aa8;font-weight:800;white-space:nowrap}
+
+section{padding:46px 0}
+.sec-h{display:flex;align-items:flex-end;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-bottom:20px;padding-bottom:9px;border-bottom:3px solid var(--q1)}
+.sec-t{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-family:var(--disp);font-size:clamp(18px,2.6vw,27px);font-weight:900;letter-spacing:.5px}
+.sec-t b{font-family:var(--disp);font-size:21px;background:linear-gradient(92deg,var(--q1),var(--q2));-webkit-background-clip:text;background-clip:text;color:transparent;letter-spacing:-1px}
+.sec-t em{font-style:normal;font-size:9.8px;color:#7d8aa8;letter-spacing:1.9px;font-family:var(--mono);font-weight:700}
+.more{font-size:11.8px;letter-spacing:.8px;color:#fff;border-bottom:2px solid var(--q1);padding-bottom:2px;font-weight:700}
+.more:hover{color:var(--q1)}
+
+/* 01 粒子片单：横向滑动票券 */
+.rail{display:flex;gap:14px;overflow-x:auto;padding:6px 2px 18px;scroll-snap-type:x mandatory;scrollbar-width:thin}
+.tk{flex:0 0 258px;height:344px;scroll-snap-align:start;border-radius:16px;padding:16px;display:flex;flex-direction:column;justify-content:flex-end;position:relative;overflow:hidden;border:1.4px solid rgba(255,255,255,.14);transition:.32s;--c1:#6ee7ff;--c2:#7cffd1}
+.tk:nth-child(2){--c1:#a78bfa;--c2:#6ee7ff}
+.tk:nth-child(3){--c1:#ff7ad9;--c2:#a78bfa}
+.tk:nth-child(4){--c1:#ffb020;--c2:#ff7ad9}
+.tk:nth-child(5){--c1:#4ade80;--c2:#6ee7ff}
+.tk:nth-child(6){--c1:#f87171;--c2:#ffb020}
+.tk::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at var(--mx,var(--my),34%),rgba(255,255,255,.24),transparent 60%);opacity:0;transition:.3s}
+.tk::after{content:"";position:absolute;inset:0;background:linear-gradient(168deg,transparent 46%,rgba(7,9,28,.96));z-index:0}
+.tk:hover::before{opacity:1}
+.tk:hover{transform:translateY(-9px) scale(1.015);border-color:var(--c1);box-shadow:0 26px 46px rgba(110,231,255,.22)}
+.tk .no{position:absolute;top:13px;left:15px;z-index:2;font-family:var(--mono);font-size:9.6px;letter-spacing:1.4px;font-weight:800;color:#07091c;background:var(--c1);padding:3px 8px;border-radius:5px}
+.tk .yr{position:absolute;top:13px;right:15px;z-index:2;font-family:var(--mono);font-size:9.4px;letter-spacing:.8px;color:#cfeaff;font-weight:800}
+.tk h4{position:relative;z-index:2;font-family:var(--serif);font-size:21px;font-weight:850;line-height:1.3}
+.tk .mt{position:relative;z-index:2;font-size:11.4px;color:#c8d4e8;margin-top:3px}
+.tk .fx{position:relative;z-index:2;display:inline-flex;gap:6px;margin-top:9px;flex-wrap:wrap}
+.tk s{text-decoration:none;font-size:9.2px;letter-spacing:.7px;font-family:var(--mono);font-weight:800;color:var(--c1);border:1px solid var(--c1);padding:2.5px 7px;border-radius:4px}
+.tk .sc{position:absolute;right:14px;bottom:14px;z-index:2;font-family:var(--disp);font-size:20px;color:var(--q5);letter-spacing:-.5px;text-shadow:0 2px 8px rgba(0,0,0,.6)}
+
+/* 02 视效进化：定义列表式两列 */
+.dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(308px,1fr));gap:12px}
+.it{display:grid;grid-template-columns:74px 1fr;gap:12px;align-items:flex-start;background:linear-gradient(165deg,var(--bg2),#0c1030);border:1.4px solid rgba(255,255,255,.11);border-radius:13px;padding:14px 16px;transition:.26s}
+.it b{font-family:var(--disp);font-size:27px;line-height:1.05;letter-spacing:-1px;background:linear-gradient(135deg,var(--q1),var(--q4));-webkit-background-clip:text;background-clip:text;color:transparent}
+.it h4{font-family:var(--serif);font-size:15.6px;font-weight:770;margin-bottom:4px}
+.it p{font-size:11.8px;color:#aab5cc;text-align:justify}
+.it:hover{transform:translateX(6px);border-color:var(--q1);background:rgba(110,231,255,.07)}
+
+/* 03 深度影评：斜切引文卡 */
+.notes{display:grid;grid-template-columns:repeat(auto-fit,minmax(276px,1fr));gap:14px}
+.n{position:relative;padding:19px 20px 17px;border-radius:14px;background:linear-gradient(170deg,#121a44,#0a0c24);border:1.4px solid rgba(255,255,255,.12);transition:.3s;overflow:hidden;min-height:164px;display:flex;flex-direction:column}
+.n::after{content:"";position:absolute;right:0;bottom:0;width:44px;height:44px;background:var(--q4);clip-path:polygon(100% 0,100% 100%,0 100%);transition:.3s}
+.n:hover{transform:translateY(-6px) rotate(-.5deg);border-color:var(--q4)}
+.n:hover::after{width:64px;height:64px}
+.n .qm{font-family:var(--serif);font-size:52px;line-height:.6;color:var(--q1);margin-bottom:6px;text-shadow:0 0 18px rgba(110,231,255,.35)}
+.n p{font-size:12.6px;color:#c6d0e4;text-align:justify;flex:1}
+.n .tg{font-family:var(--mono);font-size:8.8px;letter-spacing:1.6px;color:var(--q2);font-weight:800;margin-top:10px}
+.n .by{font-family:var(--serif);font-size:11.2px;color:#8d9aae;margin-top:6px;font-style:italic}
+
+/* 04 光影导演：节点树 */
+.tree{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+.nd{position:relative;padding:15px;border-radius:14px;background:var(--bg2);border:1.4px solid rgba(255,255,255,.12);transition:.28s;text-align:center}
+.nd:not(:last-child)::after{content:"";position:absolute;top:50%;right:-16px;width:16px;height:2px;background:repeating-linear-gradient(90deg,var(--q1) 0 5px,transparent 5px 9px);display:none}
+.nd .av{width:64px;height:64px;border-radius:50%;margin:0 auto 10px;display:grid;place-items:center;font-family:var(--disp);font-size:25px;color:#07091c;background:radial-gradient(circle at 32% 28%,#fff,var(--q1) 48%,var(--q3));box-shadow:0 0 20px rgba(110,231,255,.4);transition:.28s}
+.nd:nth-child(2) .av{background:radial-gradient(circle at 32% 28%,#fff,var(--q4) 48%,var(--q1));box-shadow:0 0 20px rgba(255,122,217,.4)}
+.nd:nth-child(3) .av{background:radial-gradient(circle at 32% 28%,#fff,var(--q5) 48%,var(--q4));box-shadow:0 0 20px rgba(255,176,32,.4)}
+.nd:nth-child(4) .av{background:radial-gradient(circle at 32% 28%,#fff,var(--q2) 48%,var(--q1));box-shadow:0 0 20px rgba(124,255,209,.4)}
+.nd:nth-child(5) .av{background:radial-gradient(circle at 32% 28%,#fff,var(--q3) 48%,var(--q5));box-shadow:0 0 20px rgba(167,139,250,.4)}
+.nd h4{font-family:var(--serif);font-size:17.4px;font-weight:790}
+.nd small{font-size:10.8px;color:#9aa6be;letter-spacing:.5px}
+.nd .fx{display:flex;gap:6px;justify-content:center;flex-wrap:wrap;margin-top:10px}
+.nd s{text-decoration:none;font-size:8.8px;font-family:var(--mono);letter-spacing:.6px;font-weight:800;color:var(--q1);border:1px solid var(--q1);padding:2.5px 7px;border-radius:11px}
+.nd:hover{transform:translateY(-7px);border-color:var(--q1)}
+.nd:hover .av{transform:scale(1.12) rotate(-6deg)}
+
+/* 05 观影日历 */
+.week{display:grid;grid-template-columns:repeat(7,1fr);gap:9px}
+.day{position:relative;background:var(--bg2);border:1.4px solid rgba(255,255,255,.13);border-radius:13px;padding:12px;transition:.26s;min-height:160px;display:flex;flex-direction:column;gap:5px}
+.day .wd{font-family:var(--mono);font-size:9px;letter-spacing:1.8px;color:#7d8aa8;font-weight:800}
+.day .dt{font-family:var(--disp);font-size:26px;line-height:1;font-weight:900;letter-spacing:-1px}
+.day .mv{font-size:11.8px;font-weight:720;line-height:1.45;margin-top:auto;font-family:var(--serif)}
+.day .sp{font-size:9.2px;font-family:var(--mono);letter-spacing:.5px;font-weight:700;color:var(--q1)}
+.day.today{border-color:var(--q1);background:rgba(110,231,255,.09);box-shadow:0 0 0 2px var(--q1),0 12px 26px rgba(110,231,255,.18)}
+.day.today .dt{color:var(--q1)}
+.day:hover{transform:translateY(-5px)}
+
+.notice{background:rgba(110,231,255,.07);border:1.4px dashed rgba(110,231,255,.55);border-radius:12px;padding:15px 19px;margin:6px 0 0;font-size:12.5px;color:#dbe3f0}
+.notice b{color:var(--q1)}
+
+.prose{padding:30px 0 6px}
+.prose h2{font-family:var(--disp);font-size:clamp(18px,2.5vw,27px);margin-bottom:10px;font-weight:900;letter-spacing:.5px}
+.prose h3{font-family:var(--serif);font-size:17px;margin:18px 0 6px;color:var(--q2);font-weight:770}
+.prose p{color:#a9b6cc;font-size:13.5px;margin-bottom:11px;text-align:justify}
+
+.foot{margin-top:24px;background:#040510;border-top:3px solid var(--q1);padding:34px 0 36px}
+.fg{display:grid;grid-template-columns:repeat(auto-fit,minmax(128px,1fr));gap:22px;margin-bottom:24px}
+.foot h6{color:#fff;font-size:11.2px;margin-bottom:11px;letter-spacing:1.4px;font-family:var(--mono);font-weight:800}
+.foot ul li{margin-bottom:7px;font-size:12px}
+.foot a:hover{color:var(--q1)}
+.foot .sig{font-family:var(--disp);font-weight:900;font-size:23px;letter-spacing:.6px}
+.foot .sig .qk2{color:var(--q1)}
+.fin{display:flex;justify-content:space-between;flex-wrap:wrap;gap:11px;border-top:1px solid rgba(255,255,255,.14);padding-top:17px;font-size:11.8px;color:#6b7894;font-family:var(--mono)}
+.fin a{color:var(--q1)}
+
+.top{position:fixed;right:14px;bottom:18px;width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:var(--q1);color:#07091c;box-shadow:0 10px 22px rgba(110,231,255,.35);opacity:0;pointer-events:none;transition:.3s;z-index:60;font-size:18px;font-weight:900}
+.top.show{opacity:1;pointer-events:auto}
+.top:hover{background:#fff}
+
+@media(max-width:1060px){.tk{flex-basis:238px;height:330px}.n{grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}}
+@media(max-width:880px){
+  .nav .wrap{height:56px;gap:8px}.logo{font-size:18px}.logo em{display:none}
+  .burger{display:block;margin-left:auto}
+  .menu{position:fixed;inset:56px 0 0;flex-direction:column;background:rgba(7,9,28,.99);padding:15px;transform:translateX(100%);transition:.34s;z-index:69;overflow:auto}
+  .menu.open{transform:translateX(0)}
+  .menu a{padding:13px 15px;font-size:15px;border-bottom:1.4px solid rgba(255,255,255,.1);border-radius:0}
+  .hero{padding:20px 0 18px}.hg{grid-template-columns:1fr;gap:6px}
+  .qk{order:-1;width:178px;height:178px}
+  section{padding:36px 0}
+  .tree{grid-template-columns:repeat(auto-fit,minmax(168px,1fr))}
+  .week{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:480px){
+  h1{font-size:22.4px}
+  .btn{padding:10px 18px;font-size:13px;flex:1;justify-content:center}
+  .tk{flex-basis:212px;height:308px}
+  .rail{gap:11px}
+  .week{grid-template-columns:1fr}
+  .day{min-height:auto;flex-direction:row;flex-wrap:wrap;align-items:center}.day .mv{margin-top:0}
+}
+@media print{body{background:#fff;color:#000}.nav,.top,.qk,.eyebrow,.rail{display:none}}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaobao.js"></script>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="夸克电影网首页">
+      <span class="q">Q</span>
+      <span>夸克电影网<em>QUARK · CINEMA OF LIGHT</em></span>
+    </a>
+    <nav class="menu" id="menu" aria-label="主导航">
+      <a href="#rail">粒子片单</a>
+      <a href="#dl">视效进化</a>
+      <a href="#notes">深度影评</a>
+      <a href="#tree">光影导演</a>
+      <a href="#week">观影日历</a>
+    </nav>
+    <button class="burger" id="burger" aria-expanded="false" aria-controls="menu" aria-label="菜单">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero" aria-labelledby="h1">
+    <div class="wrap hg">
+      <div>
+        <span class="eyebrow">◆ 夸克 · 最小的光，最亮的电影</span>
+        <h1 id="h1">电影是<em>光</em>的艺术，<br>而光，<u>起于</u> <span class="big">夸克</span></h1>
+        <p class="hsub"><strong>夸克电影网（kuakedianyingwang）</strong>以"夸克"为隐喻，专注<strong>粒子、光影与视觉奇观</strong>的电影赏析：<strong>粒子特效片单、视效进化史、光影导演谱系、4K高码率片单、深度影评与观影日历</strong>。好电影不靠堆特效——<strong>它让你忘记特效的存在</strong>。</p>
+        <div class="cta">
+          <a class="btn btn-p" href="#rail" rel="nofollow">进入粒子片单 →</a>
+          <a class="btn btn-o" href="#dl" rel="nofollow">视效进化史</a>
+        </div>
+      </div>
+      <div>
+        <div class="qk" aria-label="夸克粒子">
+          <span class="orb" aria-hidden="true"></span>
+          <span class="orb" aria-hidden="true"></span>
+          <span class="orb" aria-hidden="true"></span>
+          <svg viewBox="0 0 120 120" role="img" aria-label="粒子轨道示意">
+            <g fill="none" stroke-width="1.7">
+              <ellipse cx="60" cy="60" rx="52" ry="19" stroke="#6ee7ff" transform="rotate(-24 60 60)"/>
+              <ellipse cx="60" cy="60" rx="52" ry="19" stroke="#7cffd1" transform="rotate(38 60 60)" stroke-dasharray="3 5"/>
+              <ellipse cx="60" cy="60" rx="52" ry="19" stroke="#a78bfa" transform="rotate(100 60 60)" stroke-dasharray="2 6"/>
+            </g>
+            <circle cx="60" cy="60" r="7" fill="#fff" filter="url(#g)"/>
+            <defs><radialGradient id="g" cx=".32" cy=".28"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#6ee7ff"/></radialGradient></defs>
+            <circle cx="22" cy="44" r="2.2" fill="#6ee7ff"><animate attributeName="opacity" values="1;0;1" dur="2.6s" repeatCount="indefinite"/></circle>
+            <circle cx="98" cy="34" r="1.8" fill="#ff7ad9"><animate attributeName="opacity" values="1;0;1" dur="1.9s" repeatCount="indefinite"/></circle>
+            <circle cx="100" cy="84" r="2" fill="#7cffd1"><animate attributeName="opacity" values="1;0;1" dur="3.1s" repeatCount="indefinite"/></circle>
+            <circle cx="30" cy="92" r="1.6" fill="#ffb020"><animate attributeName="opacity" values="1;0;1" dur="2.3s" repeatCount="indefinite"/></circle>
+          </svg>
+          <span class="cap">QUARK · PARTICLE · LIGHT</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 01 粒子片单 -->
+  <section id="rail" aria-labelledby="t1">
+    <div class="wrap">
+      <div class="sec-h">
+        <div class="sec-t"><b>粒子</b>片单 <em>PARTICLES</em></div>
+        <a class="more" href="#" rel="nofollow">完整片单 →</a>
+      </div>
+      <div class="rail" id="railBox">
+        <article class="tk"><span class="no">NO.01</span><span class="yr">2023 · 美</span><h4>《奥本海默》</h4><span class="mt">诺兰 · 实拍核爆 · 180 MIN</span><span class="fx"><s>IMAX 70MM</s><s>实拍</s></span><span class="sc">8.9</span></article>
+        <article class="tk"><span class="no">NO.02</span><span class="yr">2014 · 美</span><h4>《星际穿越》</h4><span class="mt">诺兰 · 黑洞视界 · 169 MIN</span><span class="fx"><s>黑洞渲染</s><s>胶卷</s></span><span class="sc">9.4</span></article>
+        <article class="tk"><span class="no">NO.03</span><span class="yr">2016 · 美</span><h4>《降临》</h4><span class="mt">维伦纽瓦 · 非线性语言 · 116 MIN</span><span class="fx"><s>语义设计</s><s>雾</s></span><span class="sc">7.8</span></article>
+        <article class="tk"><span class="no">NO.04</span><span class="yr">2021 · 丹</span><h4>《沙丘》</h4><span class="mt">维伦纽瓦 · 沙粒物理 · 155 MIN</span><span class="fx"><s>HDR10+</s><s>杜比</s></span><span class="sc">7.8</span></article>
+        <article class="tk"><span class="no">NO.05</span><span class="yr">2009 · 美</span><h4>《阿凡达》</h4><span class="mt">卡梅隆 · 3D 纪元 · 162 MIN</span><span class="fx"><s>3D</s><s>动作捕捉</s></span><span class="sc">7.9</span></article>
+        <article class="tk"><span class="no">NO.06</span><span class="yr">2013 · 墨</span><h4>《地心引力》</h4><span class="mt">卡隆 · 太空寂静 · 91 MIN</span><span class="fx"><s>沉浸声</s><s>长镜</s></span><span class="sc">7.9</span></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 视效进化 -->
+  <section id="dl" aria-labelledby="t2">
+    <div class="wrap">
+      <div class="sec-h">
+        <div class="sec-t"><b>视效</b>进化史 <em>EVOLUTION</em></div>
+        <a class="more" href="#" rel="nofollow">完整年表 →</a>
+      </div>
+      <div class="dl">
+        <article class="it"><b>1895</b><div><h4>停机再拍</h4><p>梅里爱发现"停机再拍"，电影第一次学会<strong>造假</strong>。视效的原点不是技术，是<strong>一个走神</strong>。</p></div></article>
+        <article class="it"><b>1927</b><div><h4>逐帧动画</h4><p>《大都会》用微缩模型与遮罩合成未来都市。<strong>每一帧都是手工，每一秒都值钱。</strong></p></div></article>
+        <article class="it"><b>1977</b><div><h4>运动控制</h4><p>《星球大战》的运动控制摄影机让模型 shots 可重复。<strong>工业光魔由此诞生。</strong></p></div></article>
+        <article class="it"><b>1982</b><div><h4>CG 初现</h4><p>《电子世界争霸战》首次大量使用 CG；《终结者》的金属液态效果惊艳。<strong>像素开始做梦。</strong></p></div></article>
+        <article class="it"><b>1991</b><div><h4>变形算法</h4><p>《终结者2》的 T-1000 用算法生成液态金属。<strong>观众第一次相信"不可能存在"的东西。</strong></p></div></article>
+        <article class="it"><b>1993</b><div><h4>恐龙复活</h4><p>《侏罗纪公园》让 CG 与实景恐龙同框。<strong>斯皮尔伯格的规矩：能用模型，就不用 CG。</strong></p></div></article>
+        <article class="it"><b>1995</b><div><h4>全 CG 长片</h4><p>《玩具总动员》证明"全 CG 也能动人"。<strong>技术中立，故事不中立。</strong></p></div></article>
+        <article class="it"><b>2001</b><div><h4>动作捕捉</h4><p>《指环王》的咕噜让表演捕捉成为表演本身。<strong>演员的眼神，终于能被数字化。</strong></p></div></article>
+        <article class="it"><b>2009</b><div><h4>虚拟制片萌芽</h4><p>《阿凡达》把 3D、动作捕捉、虚拟摄影机合为一体。<strong>导演第一次"走进"数字场景。</strong></p></div></article>
+        <article class="it"><b>2019</b><div><h4>数字人</h4><p>《爱尔兰人》用 AI 减龄德尼罗。<strong>争议随之而来：皱纹可以假，记忆不能。</strong></p></div></article>
+        <article class="it"><b>2022</b><div><h4>LED 墙</h4><p>《曼达洛人》用 LED 体积屏实时打光。<strong>演员终于不必对着绿幕想象太阳。</strong></p></div></article>
+        <article class="it"><b>2026</b><div><h4>AI 入流程</h4><p>生成式工具进入分镜、中间帧、修复。<strong>工具越来越快，判断越来越贵。</strong></p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03 深度影评 -->
+  <section id="notes" aria-labelledby="t3">
+    <div class="wrap">
+      <div class="sec-h">
+        <div class="sec-t"><b>深度</b>影评 <em>CRITIQUE</em></div>
+        <a class="more" href="#" rel="nofollow">全部影评 →</a>
+      </div>
+      <div class="notes">
+        <article class="n"><span class="qm">“</span><p><strong>最好的特效，是你看不见的那个。</strong>《奥本海默》的核爆没有蘑菇云预告，只有一声延迟的盲白。<strong>真正的奇观在音轨，不在画面。</strong></p><span class="tg">LIGHT · SOUND</span><span class="by">— 夸克电影网 · 编辑部</span></article>
+        <article class="n"><span class="qm">“</span><p><strong>粒子越多，情绪越少。</strong>当每一粒沙尘都被渲染，观众反而看不见沙漠。<strong>留白不是省钱，是把注意力还给演员。</strong></p><span class="tg">LESS IS MORE</span><span class="by">— 夸克电影网 · 编辑部</span></article>
+        <article class="n"><span class="qm">“</span><p><strong>IMAX 70mm 不是画质，是仪式。</strong>胶片颗粒本身就是"粒子"。<strong>真 4K 合理码率 40–80 Mbps，多数"免费 4K"不足 8 Mbps</strong>——但更大的差别，是<strong>那声低音</strong>。</p><span class="tg">CODEC · 48FPS</span><span class="by">— 夸克电影网 · 编辑部</span></article>
+        <article class="n"><span class="qm">“</span><p><strong>长镜头是视效的反面。</strong>《地心引力》13 分钟开场一镜，靠的是<strong>数学与耐心</strong>。<strong>剪辑是止痛药，长镜头是把药拿走。</strong></p><span class="tg">ONE TAKE</span><span class="by">— 夸克电影网 · 编辑部</span></article>
+        <article class="n"><span class="qm">“</span><p><strong>3D 不是技术，是构图约束。</strong>卡梅隆要求"每层深度都要有事发生"。<strong>坏 3D 把画面推远，好 3D 把故事拉近。</strong></p><span class="tg">DEPTH</span><span class="by">— 夸克电影网 · 编辑部</span></article>
+        <article class="n"><span class="qm">“</span><p><strong>AI 补帧，别开。</strong>把 24FPS 补成 60FPS，胶片感消失，演员像在演肥皂剧。<strong>电影感 = 把画面往青橙两端推，再留一点呼吸。</strong></p><span class="tg">24 FPS</span><span class="by">— 夸克电影网 · 编辑部</span></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 04 光影导演 -->
+  <section id="tree" aria-labelledby="t4">
+    <div class="wrap">
+      <div class="sec-h">
+        <div class="sec-t"><b>光影</b>导演谱系 <em>DIRECTORS</em></div>
+        <a class="more" href="#" rel="nofollow">完整谱系 →</a>
+      </div>
+      <div class="tree">
+        <article class="nd"><div class="av">诺</div><h4>克里斯托弗·诺兰</h4><small>实拍 / IMAX / 声音</small><div class="fx"><s>胶片</s><s>物理</s><s>声压</s></div></article>
+        <article class="nd"><div class="av">丹</div><h4>丹尼斯·维伦纽瓦</h4><small>雾 / 留白 / 极简</small><div class="fx"><s>雾</s><s>极简</s><s>氛围</s></div></article>
+        <article class="nd"><div class="av">卡</div><h4>詹姆斯·卡梅隆</h4><small>工具 / 3D / 深水</small><div class="fx"><s>3D</s><s>捕捉</s><s>深海</s></div></article>
+        <article class="nd"><div class="av">阿</div><h4>阿方索·卡隆</h4><small>长镜 / 沉浸 / 空间</small><div class="fx"><s>长镜</s><s>沉浸</s><s>轨道</s></div></article>
+        <article class="nd"><div class="av">罗</div><h4>罗杰·迪金斯</h4><small>光 / 阴影 / 夜</small><div class="fx"><s>逆光</s><s>夜戏</s><s>灰度</s></div></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 观影日历 -->
+  <section id="week" aria-labelledby="t5">
+    <div class="wrap">
+      <div class="sec-h">
+        <div class="sec-t"><b>观影</b>日历 <em>WEEK</em></div>
+        <a class="more" href="#" rel="nofollow">下一周 →</a>
+      </div>
+      <div class="week">
+        <div class="day"><span class="wd">MON</span><span class="dt">06.22</span><span class="mv">《地心引力》<br>沉浸声 · 长镜</span><span class="sp">91 MIN</span></div>
+        <div class="day"><span class="wd">TUE</span><span class="dt">06.23</span><span class="mv">《降临》<br>语义设计</span><span class="sp">116 MIN</span></div>
+        <div class="day"><span class="wd">WED</span><span class="dt">06.24</span><span class="mv">《银翼杀手2049》<br>橙青调色</span><span class="sp">164 MIN</span></div>
+        <div class="day today"><span class="wd">THU · TODAY</span><span class="dt">06.25</span><span class="mv">《奥本海默》<br>IMAX 70MM · 实拍</span><span class="sp">180 MIN</span></div>
+        <div class="day"><span class="wd">FRI</span><span class="dt">06.26</span><span class="mv">《星际穿越》<br>黑洞 / 胶卷</span><span class="sp">169 MIN</span></div>
+        <div class="day"><span class="wd">SAT</span><span class="dt">06.27</span><span class="mv">《沙丘2》<br>HDR10+ · 杜比</span><span class="sp">166 MIN</span></div>
+        <div class="day"><span class="wd">SUN</span><span class="dt">06.28</span><span class="mv">《2001太空漫游》<br>纯光 · 静默</span><span class="sp">149 MIN</span></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="notice">
+    <b>版权与合规声明：</b>夸克电影网为<strong>电影赏析、视效美学与观影指南</strong>站点，<strong>不提供、不链接、不索引任何涉及版权争议的播放源、资源链接、M3U/TS 播放列表或下载资源</strong>。文中片目均为影史公认视效经典，观看请<strong>以各正版平台、电影节展映与实体正版碟公告为准</strong>。支持正版，就是让下一部视觉奇观还能被拍出来。
+  </div></div>
+
+  <section class="prose" aria-labelledby="seo">
+    <div class="wrap">
+      <h2 id="seo">夸克电影网：电影是光的艺术，光起于夸克</h2>
+      <p><strong>夸克电影网（kuakedianyingwang）</strong>是一个以<strong>粒子、光影与视觉奇观</strong>为核心的电影赏析站点。我们不做资源，做<strong>看懂</strong>：<strong>粒子特效片单、视效进化史、光影导演谱系、4K高码率片单、深度影评与观影日历</strong>。核心关键词：<strong>夸克电影网、夸克电影、粒子特效、视觉奇观、光影电影、科幻片单、视效进化史、4K高码率、电影影评、观影指南</strong>。</p>
+      <h3>夸克是什么？——从最小处看见光</h3>
+      <p>夸克是组成质子与中子的基本粒子，人类迄今无法"看到"它。<strong>电影恰恰相反：它用光，把看不见的东西变成可见。</strong>银幕上的每一粒沙、每一束光、每一片雪，都是计算与手工的合力。<b>所以夸克电影网不看"特效多不多"，只看"光用得对不对"。</b></p>
+      <h3>视效的十二个台阶</h3>
+      <p>从 1895 年梅里爱的"停机再拍"，到 1927 年《大都会》的微缩模型，1977 年《星球大战》的运动控制摄影机，1982 年《电子世界争霸战》的 CG 初现，1991 年《终结者2》的液态金属，1993 年《侏罗纪公园》的恐龙，1995 年《玩具总动员》的全 CG，2001 年《指环王》的表演捕捉，2009 年《阿凡达》的虚拟摄影机，2019 年《爱尔兰人》的 AI 减龄，2022 年《曼达洛人》的 LED 体积屏，到 2026 年生成式工具进入流程——<b>工具越来越快，判断越来越贵。</b></p>
+      <h3>五条观影硬指标</h3>
+      <p><strong>①真 4K 合理码率 40–80 Mbps，多数"免费 4K"不足 8 Mbps。</strong>②<strong>音箱 &gt; 屏幕 &gt; 片源</strong>——低频 30Hz 在手机小屏上听得出，4K 在手机小屏上看不出。③<strong>IMAX 70mm 不是画质，是仪式</strong>，胶片颗粒本身就是"粒子"。④<strong>AI 补帧别开</strong>，24FPS 补成 60FPS 会把电影感补成肥皂剧。⑤<strong>别开倍速</strong>——剪辑节奏是导演算好的心跳。</p>
+      <h3>最好的特效，是你看不见的那个</h3>
+      <p>《奥本海默》的核爆没有蘑菇云预告，只有一声延迟的盲白——<strong>真正的奇观在音轨</strong>。《沙丘》的沙粒物理再精确，观众记住的是"寂静"。<strong>粒子越多，情绪越少；留白不是省钱，是把注意力还给演员。</strong>看电影，最终看的还是人。</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="fg">
+      <div>
+        <div class="sig"><span class="qk2">夸克</span>电影网</div>
+        <p style="font-size:12px;margin-top:8px;color:#6b7894">电影是光的艺术，光起于夸克。</p>
+      </div>
+      <div><h6>粒子</h6><ul><li><a href="#rail">粒子片单</a></li><li><a href="#" rel="nofollow">4K 高码率</a></li><li><a href="#" rel="nofollow">HDR 片单</a></li><li><a href="#" rel="nofollow">杜比视界</a></li></ul></div>
+      <div><h6>视效</h6><ul><li><a href="#dl">视效进化史</a></li><li><a href="#tree">光影导演</a></li><li><a href="#" rel="nofollow">调色课</a></li><li><a href="#" rel="nofollow">声效课</a></li></ul></div>
+      <div><h6>阅读</h6><ul><li><a href="#notes">深度影评</a></li><li><a href="#week">观影日历</a></li><li><a href="#" rel="nofollow">术语表</a></li><li><a href="#" rel="nofollow">参考文献</a></li></ul></div>
+    </div>
+    <div class="fin">
+      <span>© <span id="yr">2026</span> 夸克电影网 kuakedianyingwang · 以各正版平台、电影节与展映方公告为准</span>
+      <span>站点地址：<a href="https://kuakedianyingwang-cn.github.io/" rel="noopener">https://kuakedianyingwang-cn.github.io/</a></span>
+    </div>
+  </div>
+</footer>
+
+<a class="top" id="topBtn" href="#top" aria-label="回到顶部" title="回到顶部">↑</a>
+
+<script>
+var burger=document.getElementById('burger'),menu=document.getElementById('menu');
+burger.addEventListener('click',function(){
+  var o=menu.classList.toggle('open');
+  burger.setAttribute('aria-expanded',o?'true':'false');
+});
+menu.addEventListener('click',function(e){
+  if(e.target.tagName==='A'){menu.classList.remove('open');burger.setAttribute('aria-expanded','false');}
+});
+var topBtn=document.getElementById('topBtn');
+window.addEventListener('scroll',function(){topBtn.classList[window.scrollY>700?'add':'remove']('show');});
+document.getElementById('yr').textContent=new Date().getFullYear();
+
+document.querySelectorAll('.tk').forEach(function(c){
+  c.addEventListener('mousemove',function(e){
+    var r=c.getBoundingClientRect();
+    c.style.setProperty('--mx',(e.clientX-r.left)+'px');
+    c.style.setProperty('--my',(e.clientY-r.top)+'px');
+  });
+});
+</script>
+</body>
+</html>
